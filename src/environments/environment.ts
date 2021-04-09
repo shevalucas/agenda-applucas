@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiBaseUrl: 'http://localhost:8080/api/contatos'
+  apiBaseUrl: 'https://aw-agentas-api.herokuapp.com/'
 };
 
 /*
