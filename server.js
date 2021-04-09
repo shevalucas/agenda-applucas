@@ -5,10 +5,10 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-app.use(express.static(__dirname + '/dist/agenda-applucas'));
+app.use(express.static(__dirname + '/dist/agenda-app'));
 
 app.get('/*', (req, res) => {
-    res.sendFile(__dirname + '/dist/agenda-app/agenda-applucas')
+    res.sendFile(__dirname + '/dist/agenda-app/agenda-app')
 });
 
 app.listen('Servidor iniciado na porta ' + PORT);
